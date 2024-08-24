@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- fontawesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 
     <style>
         .manrope{
@@ -93,7 +94,7 @@
                 <div class="w-1/2 flex items-center justify-center">
                     <!-- green juice -->
                     <div class="w-1/2  flex flex-col items-center">
-                        <div class="w-[230px] h-[130px]  mb-7 bg-gradient-to-r from-[#d49595] to-[#ecb998] rounded-[10px]"></div>
+                        <div class="w-[230px] h-[130px]  mb-7 bg-gradient-to-r from-red-50 to-red-100 rounded-[10px]"></div>
                         <div class="w-[230px] h-[250px]  bg-[#5776391A] p-3 rounded-[10px]">
                             <img class=" mx-auto h-full" src="./images/fresh-2.png" alt="green-juice-img">
                         </div>
@@ -115,6 +116,60 @@
                 </div>
             </div>
         </section>
+
+        <!-- Card section -->
+        <section class="max-w-6xl my-10 mx-auto ">
+            <h1 class=" manrope text-4xl text-center font-bold my-6 ">News & Events</h1>
+            <p class=" manrope text-sm text-center mb-6 w-[60%] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <!-- Card container -->
+            <div class="grid grid-cols-3 gap-3">
+                <div class="card bg-base-100 w-80 mx-auto shadow-xl p-3">
+                    <figure>
+                      <img
+                        src="./images/news-1.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Collecting 8 points for discount</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn ">Learn More</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-base-100 w-80 mx-auto shadow-xl p-3">
+                    <figure>
+                      <img
+                        src="./images/news-2.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Collecting 8 points for discount</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn ">Learn More</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-base-100 w-80 mx-auto shadow-xl p-3">
+                    <figure>
+                      <img
+                        src="./images/news-3.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Collecting 8 points for discount</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn ">Learn More</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        
     </main>
 </body>
 </html>
